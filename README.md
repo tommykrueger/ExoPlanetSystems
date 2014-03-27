@@ -5,15 +5,15 @@ A web application to visualize exoplanet data. The data is based on PHL's
 
 ### Getting Started
 
-visit [http://exoplanets.tommykrueger.com/app](http://exoplanets.tommykrueger.com/app) to see the app.
-open [http://exoplanets.tommykrueger.com](http://exoplanets.tommykrueger.com) to see app description.
+Visit [http://exoplanets.tommykrueger.com/app](http://exoplanets.tommykrueger.com/app) to see the app.
+Open [http://exoplanets.tommykrueger.com](http://exoplanets.tommykrueger.com) to see app description.
 
 ### Usage
 
 #### Frontend
 
-1. clone the repository with command: git clone https://github.com/tommykrueger/exoplanets
-2. open index.html file inside of the root directory in your browser - have fun!
+1. Clone the repository with command: git clone https://github.com/tommykrueger/exoplanets
+2. Open index.html file inside of the root directory in your browser - have fun!
 
 #### Backend
 
