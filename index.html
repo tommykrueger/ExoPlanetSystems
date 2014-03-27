@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Visualization of Exoplanets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- load libraries -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/underscore.min.js"></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/fontawesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+    
+  </head>
+<body>
+
+  <div id="page">
+    
+    <ul id="mainmenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li>
+        <a href="#the-app">The App</a>
+        <ul class="submenu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#interface">Interface</a></li>
+          <li><a href="#exoplanets">Exoplanets</a></li>
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#browser-support">Browser Support</a></li>
+          <li><a href="#future">Future</a></li>
+        </ul>
+      </li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#credits">Credits</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="impressum.html" target="_blank">Legal Notice</a></li>
+      <li><a href="#discuss">Discuss</a></li>
+    </ul>
+
+    <div id="content">
+
+      <div class="content-block">
+        <a name="home"></a>
+        <h3>Home</h3>
+
+        <p>Welcome to the ExoPlanetSystems App</p>
+        <p>
+          This is an approach to make planet systems accessable easily by visualizing their bodies and orbits. It uses a 3D space to render and animate planet systems like our solar system or exoplanet systems. Feel free to check it out!
+        </p>
+
+        <p><em>For best performance Google Chrome in fullscreen mode is recommended (press F11 to enter fullscreen)</em></p>
+
+        <p><a class="btn" href="app/" target="_blank">Let's Start</a></p>
+      </div>
+
+      <div class="content-block">
+        <a name="about"></a>
+        <h3>About</h3>
+
+        <p>
+          The app is developed by Tommy Kr&uuml;ger, a master student of International Media and Computing at HTW based in Berlin, Germany. If you want to know more about my work please visit my page at <a href="http://tommykrueger.com" target="_blank">tommykrueger.com</a>
+        </p>
+        <p>
+          The Code of this App is hosted on <a href="http://github.com/tommykrueger/exoplanets" target="_blank">github</a>
+        </p>
+      </div>
+
+      <div class="content-block">
+        <a name="the-app"></a>
+        <h3>The App</h3>
+
+        <p>
+          The application is created with modern web technologies like Three.js WebGL, CSS3 and HTML5.
+          Since these technologies are not yet supported by all major Browsers please make sure to use a modern Browser
+          like Google Chrome, Mozilla Firefox oder Internet Explorer 11
+        </p>
+      </div>
+
+      <div class="content-block">
+        <a name="features"></a>
+        <h3>Features</h3>
+
+        <ul class="feature-list">
+          <li>Animated Solar System</li>
+          <li>Investigate Exoplanet Systems</li>
+          <li>Load & Compare Planet Systems</li>
+          <li>Change 3D Perspective of the Scene</li>
+          <li>Render Screenshots For Personal Use</li>
+          <li>Show Habitable Zones</li>
+          <li>Get Detailed Information of Exoplanets</li>
+        </ul>
+
+      </div>
+
+      <div class="content-block">
+        <a name="screenshots"></a>
+        <h3>Screenshots</h3>
+
+        <ul class="image-list">
+          <li>
+            <img src="img/screens/01.jpg" />
+            <p>See any known planet systems in an interactive 3D view</p>
+          </li>
+          <li>
+            <img src="img/screens/02.jpg" />
+            <p>Get current distribution of known types of exoplanets</p>
+          </li>
+          <li>
+            <img src="img/screens/03.jpg" />
+            <p>Investigate habitable zone of our solar system and see animated orbits of planet bodies</p>
+          </li>
+          <li>
+            <img src="img/screens/04.jpg" />
+            <p>See habitable zones of exoplanet systems and their planet bodies orbits</p>
+          </li>
+          <li>
+            <img src="img/screens/05.jpg" />
+            <p>load, watch, investigate and compare exoplanets, their orbits and habitable zones.</p>
+          </li>
+          <li>
+            <img src="img/screens/06.jpg" />
+            <p>Compare sizes of any loaded planet.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <a name="interface"></a>
+        <h3>Interface</h3>
+
+        <p>Fullscreen view</p>
+      </div>
+
+      <div class="content-block">
+        <a name="exoplanets"></a>
+        <h3>Exoplanets</h3>
+
+        <p>
+          The science of planets that have their orbits around other stars represents an important discipline in modern
+          astronomy. Whereas in ancient Greek and other cultures 2000 years before people already thought about the existance of other worlds, only in 1992 the scientific proof could be made. <a href="http://en.wikipedia.org/wiki/PSR_B1257%2B12_B" target="_blank">PSR B1257+12 B</a> was the first confirmed exoplanet discoverd by observing a pulsar in a distance of around 980 light years from us. <br/><br/>
+
+          Currently their are more than 1700 confirmed exoplanets (03/2014) from which some are possibly comparable with rock planets such as our earth. Many more wait for confirmation and discovery and are subject of current exoplanet
+          investigation.
+        </p>
+
+        <p>
+          Some interesting planet systems are (all of which are multiple planet systems which might host planets within its habitable zone):
+        </p>
+
+        <ul class="content-list">
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/system.html?id=Gliese+876+e" target="_blank">Gliese 876 e</a>
+          </li>
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/system.html?id=Gliese%20581%20e" target="_blank">Gliese 581 e</a>
+          </li>
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/system.html?id=Kepler-62+f" target="_blank">Kepler 62 f</a>
+          </li>
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/system.html?id=Kepler-69+b" target="_blank">Kepler 69 b</a>
+          </li>
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/system.html?id=Kepler-90+f" target="_blank">Kepler 90 f</a>
+          </li>
+        </ul>
+
+        <p>
+          <strong>Some Keyfacts</strong>
+        </p>
+        
+        <p>
+          "The largest planet currently known"
+        </p>
+      </div>
+
+      <div class="content-block">
+        <a name="technology"></a>
+        <h3>Technology</h3>
+
+        <p>The App uses a set of libraries, JavaScript implementations and other ressources</p>
+
+        <ul class="content-list">
+          <li>
+            <a href="http://threejs.org" target="_blank">Three.js</a> is a JavaScript library for rendering 3D-Graphics in your browser. It is a wrapper for WebGL and supports hardware accessing GPU acceleration. Three.js is also available <a href="https://github.com/mrdoob/three.js/" target="_blank">on github</a></li>
+          <li>
+            <a href="http://jquery.com" target="_blank">jQuery</a> The well known library used to support and simplify js rendering for different browsers
+          </li>
+          <li>
+            <a href="http://underscorejs.org/" target="_blank">Underscore.js</a> offers a set of functions that help working with data. E.g. underscore offers some functions and controls which are missing in native JavaScript.
+          </li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <a name="browser-support"></a>
+        <h3>Browser Support</h3>
+
+        <p>
+          As with most software there a lot's of features which are missing or simply not implemented.
+          The ExoPlanetSystems webapp also has many features currently missing: 
+        </p>
+
+      </div>
+
+      <div class="content-block">
+        <a name="future"></a>
+        <h3>Future</h3>
+
+        <p>
+          As with most software there a lot's of features which are missing or simply not implemented.
+          The ExoPlanetSystems webapp also also has many features currently missing: 
+          If you find Bugs or problem feel free to report them in the <a href="#discuss">discussion</a> or 
+          add them to <a href="github.com" target="_blank">github</a>
+        </p>
+
+      </div>
+
+      <div class="content-block">
+        <a name="links"></a>
+        <h3>Links</h3>
+
+        <ul class="content-list">
+          <li>
+            <a href="http://phl.upr.edu/" target="_blank">
+              PHL - Planetary Habitability Laboratory
+            </a>
+          </li>
+          <li>
+            <a href="http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database" target="_blank">
+              PHL's Exoplanet Database
+            </a>
+          </li>
+          <li>
+            <a href="http://exoplanetarchive.ipac.caltech.edu/" target="_blank">
+              NASA Exoplanet Archive
+            </a>
+          </li>
+          <li>
+            <a href="http://www.openexoplanetcatalogue.com/" target="_blank">
+              Open Exoplanet Catalogue
+            </a>
+          </li>
+          
+          <li>
+            <a href="http://phys.org/space-news/" target="_blank">
+              http://phys.org/space-news/
+            </a>
+          </li>
+          <li>
+            <a href="http://www.exoplanet.eu/research/" target="_blank">
+              http://www.exoplanet.eu/research/ (Missions and Programs to find exoplanets)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.dlr.de/pf" target="_blank">
+              DLR - Planetenforschung (Deutsches Zentrum für Luft- und Raumfahrt)
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <a name="credits"></a>
+        <h3>Credits</h3>
+
+        <p>
+          Special thanks goes to PHL (Planetary Habitability Laboratory) and their work on the <a href="http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database" target="_blank">Habitable Exoplanet Catalog</a>. This app is based on the cataloge data.
+        </p>
+
+        <p>
+          Also very valuable is the work given by the <a href="http://exoplanetarchive.ipac.caltech.edu/" target="_blank">NASA Exoplanet Archive</a> and <a href="http://exoplanets.org/plots" target="_blank">the Exoplanets Data Explorer</a>. Even more data is available at <a href="http://exoplanets.eu/catalog" target="_blank">http://exoplanets.eu/</a>.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <a name="donate"></a>
+        <h3>Donate</h3>
+
+        <p>
+          If you like to support the development of this application feel free to provide some small contribution. Just drop a message here and I will write you back. Any financial help is highly appreciated.
+        </p>
+
+        <form id="donate-form" class="form">
+          <input type="text" placeholder="Name" name="name" id="name" />
+          <input type="text" placeholder="Email" name="email" id="email" />
+          <textarea name="message" placeholder="Message" id="message">Hi, I would like to give you some financial support.</textarea>
+          <input type="submit" value="Send" />
+          <span id="donate-form-reponse"></span>
+        </form>
+      </div>
+
+      <div class="content-block">
+        <a name="legal-notice"></a>
+        <h3>Legal Notice</h3>
+      </div>
+
+      <div class="content-block">
+        <a name="discuss"></a>
+        <h3>Discuss</h3>
+
+        <p>
+          <a href="http://exoplanets.tommykrueger.com#disqus_thread">Exoplanets Count</a>
+        </p>
+
+        <p>
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+
+              var disqus_shortname = 'visualizationofexoplanets';
+
+              (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>
+            Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+          </noscript>
+
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </p>
+      </div>
+
+    </div> <!-- #content -->
+
+  </div> <!-- #page -->
+
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'visualizationofexoplanets'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
+  
+
+</body>
+</html>
