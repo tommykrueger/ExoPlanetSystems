@@ -1,0 +1,120 @@
+<div class="popup-view" id="startdialog-view-01">
+  <div class="dialog-content">
+    <h1>Exoplanet Visualization</h1>
+
+    <br/>
+    <p>
+    Welcome to ExoPlanetSystems - a web application to visualize planet systems.
+    It's an approach to show planet systems and their bodies in an interactive and animated way. 
+    You can use the menu on top to get more information or filter the scene to change its appearance. Use your mouse to change scene perspective and zoom. Change the speed by using + and - buttons.
+    </p>
+
+    <p>
+      There are planets, dwarf planets and moons displayed. The Solar Sytsem bodies are used as a reference system to allow comparison of exoplanets and their orbits. <i>Notize that materials of exoplanets are based on my imagination not on direct photography.</i>
+    </p>
+
+    <p>
+    The app is based on data from the 
+    <a href="http://exoplanetarchive.ipac.caltech.edu/" target="_blank">NASA Exoplanet Archive</a> and 
+    <a href="http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database" target="_blank">PHL's Exoplanets Catalog</a>, so special thanks goes to their work.
+    </p>
+  </div>
+
+  <div class="dialog-controls">
+    <span onclick="$('#startdialog-view-01').hide(); $('#startdialog-view-02').show()" class="btn bg-gradient">Next</span>
+  </div>
+</div>
+
+<div class="popup-view" id="startdialog-view-02">
+  <div class="dialog-content">
+    <h1>User Interface</h1>
+
+    <p>
+      Use filter functions at the right side to change the appearance of the scene. You can toggle the
+      visibility of the rendered objects here.
+    </p>
+
+    <p>
+      Use the planet system buttons at the bottom to toggle planet systems or to delete them fronm the scene.
+    </p>
+
+    <p> 
+      In the background are all stars shown that host planets currently known. 
+      If you click on one of them you can load the exoplanets of that star to the scene
+    </p>
+
+    <p>
+      The speed is set to 1 second in real time represents 2 days in the simulation. You can change the simulation speed by using
+      the "-" and "+" buttons.
+    </p>
+  </div>
+  <div class="dialog-controls">
+    <span onclick="$('#startdialog-view-02').hide(); $('#startdialog-view-03').show()" class="btn bg-gradient">Next</span>
+  </div>
+</div>
+
+
+<div class="popup-view" id="startdialog-view-03">
+  <div class="dialog-content">
+    <h1>Exoplanets</h1>
+
+    <p>
+      There is a random extra solar planet system displayed on your screen already. One of which is currently under
+      investigation by astronomy research.
+    </p>
+
+    <p>
+      <span>You can compare exoplanet systems with our solar system.</span>
+    </p>
+
+    <p>
+      <h2>Interesting Systems are: </h2>
+
+      <table>
+        <tr class="th">
+          <td>System</td>
+          <td>Planets</td>
+          <td>habitable</td>
+          <td>action</td>
+        </tr>
+
+        <tr>
+          <td><span rel="mu ara">Mu Ara</span></td>
+          <td><span>4</span></td>
+          <td><span>2</span></td>
+          <td><span rel="mu ara">show</span></td>
+        </tr>
+        <tr>
+          <td><span rel="kepler-46">Kepler-46</span></td>
+          <td><span>3</span></td>
+          <td><span>2</span></td>
+          <td><span rel="kepler-46">show</span></td>
+        </tr>
+        <tr>
+          <td><span rel="47 uma">47 Ursa Majoris</span></td>
+          <td><span>3</span></td>
+          <td><span>-</span></td>
+          <td><span rel="47 uma">show</span></td>
+        </tr>
+        <tr>
+          <td><span rel="gl 667">Gliese 667</span></td>
+          <td><span>6</span></td>
+          <td><span>3</span></td>
+          <td><span rel="gl 667">show</span></td>
+        </tr>
+        <tr>
+          <td><span rel="kepler-296">Kepler-296</span></td>
+          <td><span>5</span></td>
+          <td><span>1</span></td>
+          <td><span rel="kepler-296">show</span></td>
+        </tr>
+
+      </table>
+    </p>
+    
+  </div>
+
+  <div class="dialog-controls">
+    <span onclick="$('#popup').hide()" class="btn bg-gradient">Let's start</span>
+  </div>
+</div>

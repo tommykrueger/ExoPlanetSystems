@@ -1,0 +1,112 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome/fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('fontawesome/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('fontawesome/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('fontawesome/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	color: #222;
+	background-color: #000;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 100%;
+}
+
+a {
+	color: #f1f1f1;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 100;
+}
+
+
+#info .top {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+#info a {
+	color: #66F;
+	text-decoration: none;
+}
+#info a:hover {
+	text-decoration: underline;
+}
+#info .bottom {
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	padding: 5px;
+}
+
+
+.space-label {
+	padding: 3px 6px;
+	color: #fff;
+	font-size: 0.75em;
+	cursor: pointer;
+	position: absolute;
+	/*background: darkgreen;*/
+	transition: opacity 250ms ease-in-out;
+	transition: background 250ms ease-in-out;	
+	opacity: 0.75;
+	border-radius: 4px;
+	}
+.space-label:hover {
+	opacity: 1.0;
+	background: #090909;
+	}
+
+.space-label.labelgroup-0 { }
+.space-label.labelgroup-1 { color: #4682b4; }
+.space-label.labelgroup-2 {	color: #f0e68c; }
+.space-label.labelgroup-3 {	color: #d2691e; }
+.space-label.labelgroup-4 {	color: #ffa500; }
+
+.space-label:hover { background: darkgreen; }
+
+
+.space-label.moon {
+	font-size: 0.5sem;
+	}
+
+#canvas {
+	cursor: pointer;
+	opacity: 0.0;
+	transition: opacity 200ms ease-in-out;
+	position: absolute; 
+	z-index: 2;
+	}
+
+/*  generated from http://www.colorzilla.com/gradient-editor/ */
+.bg-gradient {
+	background: rgb(0,0,0);
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjMjIyMjIyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 90%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(90%,rgba(34,34,34,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(34,34,34,1) 90%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(34,34,34,1) 90%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(34,34,34,1) 90%,rgba(125,185,232,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(34,34,34,1) 90%,rgba(125,185,232,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7db9e8',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
