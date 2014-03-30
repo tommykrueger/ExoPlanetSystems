@@ -101,6 +101,7 @@ class PhlplanetsController extends AppController {
 								'name' => $planet['Phlplanet']['P. Name'],
 								'type' => 'planet',
 								'masse' => (float)$planet['Phlplanet']['P. Mass'], // earth masses
+								'distance' => (float)$planet['Phlplanet']['S. Distance'], // distance
 								'temp' => (float)$planet['Phlplanet']['P. Teq Mean'], // mean surface temparature in Kelvin
 								'radius' => (float)$planet['Phlplanet']['P. Radius'], // earth radii
 								'semiMajorAxis' => (float)($planet['Phlplanet']['P. Sem Major Axis'] * $this->AU),
