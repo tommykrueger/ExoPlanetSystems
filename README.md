@@ -12,8 +12,10 @@ Open [http://exoplanets.tommykrueger.com](http://exoplanets.tommykrueger.com) to
 
 #### Frontend
 
-1. Clone the repository with command: git clone https://github.com/tommykrueger/exoplanets
-2. Open index.html file inside of the root directory in your browser - have fun!
+1. Setup a simple webserver with wamp or xampp software
+2. Create a folder within htdocs/ and name it "exoplanets"
+3. Open that folder and clone the repository with command: git clone https://github.com/tommykrueger/exoplanets
+4. Open localhost/exoplanets in your Browser - have fun! (The search function will no work this way cause u still need to setup the backend)
 
 #### Backend
 
