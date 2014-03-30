@@ -7,7 +7,7 @@ Language = function(){
 	this.tagNames = ['span', 'label', 'a', 'h1', 'h2', 'h3', 'h4'];
 
 	// add all attributes that should have translation capacities
-	this.attributeNames = ['title'];
+	this.attributeNames = ['title', 'value'];
 	
 	this.updateLanguage();
 
@@ -30,7 +30,7 @@ Language.prototype.updateLanguage = function(){
 	var $this = this;
 
 	$.ajax({
-		url: 'js/lang/' + $this.languageFile,
+		url: 'js/lang/' + $this.languageFile + '?date=' + Math.random(),
 		dataType: 'json',
 		error: function( e ){
 			console.log( e );
@@ -61,6 +61,9 @@ Language.prototype.updateLanguage = function(){
 					}
 					
 				});
+
+				// get the DOM with attributes
+				// var DOMelements = $('html').children().each()( tagName );
 
 			});
 

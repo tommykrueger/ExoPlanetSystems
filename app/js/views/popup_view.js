@@ -492,4 +492,16 @@ PopupView.init = function( object, type, html, ajaxUrl, cssOptions ) {
 		$('#popup').remove();
 	});
 
+
+	$(document).on('click', 'table td a', function( e ){
+		e.preventDefault();
+		
+		var systemName = $(this).attr('rel');
+
+		App.addSystem( systemName );
+
+		$('#popup').empty();
+		$('#popup').remove();
+	});
+
 };

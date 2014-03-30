@@ -4,9 +4,9 @@
 
     <br/>
     <p>
-    Welcome to ExoPlanetSystems - a web application to visualize planet systems.
-    It's an approach to show planet systems and their bodies in an interactive and animated way. 
-    You can use the menu on top to get more information or filter the scene to change its appearance. Use your mouse to change scene perspective and zoom. Change the speed by using + and - buttons.
+      Welcome to ExoPlanetSystems - a web application to visualize planet systems.
+      It's an approach to show planet systems and their bodies in an interactive and animated way. 
+      You can use the menu on top to get more information or filter the scene to change its appearance. Use your mouse to change scene perspective and zoom. Change the speed by using + and - buttons.
     </p>
 
     <p>
@@ -44,7 +44,7 @@
     </p>
 
     <p>
-      The speed is set to 1 second in real time represents 2 days in the simulation. You can change the simulation speed by using
+      The speed is set so the bodies are not to fast or to slow. You can adjust it by using
       the "-" and "+" buttons.
     </p>
   </div>
@@ -73,40 +73,44 @@
       <table>
         <tr class="th">
           <td>System</td>
-          <td>Planets</td>
-          <td>habitable</td>
+          <td>Planets (in habitable zone)</td>
           <td>action</td>
         </tr>
 
         <tr>
-          <td><span rel="mu ara">Mu Ara</span></td>
-          <td><span>4</span></td>
-          <td><span>2</span></td>
-          <td><span rel="mu ara">show</span></td>
-        </tr>
-        <tr>
-          <td><span rel="kepler-46">Kepler-46</span></td>
-          <td><span>3</span></td>
-          <td><span>2</span></td>
-          <td><span rel="kepler-46">show</span></td>
-        </tr>
-        <tr>
           <td><span rel="47 uma">47 Ursa Majoris</span></td>
-          <td><span>3</span></td>
-          <td><span>-</span></td>
-          <td><span rel="47 uma">show</span></td>
+          <td><span>3 (-)</span></td>
+          <td><a href="#" rel="47 uma">load</a></td>
         </tr>
+
         <tr>
-          <td><span rel="gl 667">Gliese 667</span></td>
-          <td><span>6</span></td>
-          <td><span>3</span></td>
-          <td><span rel="gl 667">show</span></td>
+          <td><span rel="mu ara">Mu Ara</span></td>
+          <td><span>4 (0)</span></td>
+          <td><a href="#" rel="mu ara">load</a></td>
         </tr>
+        
         <tr>
-          <td><span rel="kepler-296">Kepler-296</span></td>
-          <td><span>5</span></td>
-          <td><span>1</span></td>
-          <td><span rel="kepler-296">show</span></td>
+          <td><span rel="gl 581">Gliese 581</span></td>
+          <td><span>4 (1)</span></td>
+          <td><a href="#" rel="gl 581">load</a></td>
+        </tr>
+
+        <tr>
+          <td><span rel="kepler-62">kepler-62</span></td>
+          <td><span>5 (2)</span></td>
+          <td><a href="#" rel="kepler-62">load</a></td>
+        </tr>
+
+        <tr>
+          <td><span rel="gj 667c">Gliese 667</span></td>
+          <td><span>6 (3)</span></td>
+          <td><a href="#" rel="gj 667c">load</a></td>
+        </tr>
+
+        <tr>
+          <td><span rel="kepler-90">Kepler-90</span></td>
+          <td><span>7 (-)</span></td>
+          <td><a href="#" rel="kepler-90">load</a></td>
         </tr>
 
       </table>

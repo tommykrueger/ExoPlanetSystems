@@ -351,6 +351,7 @@ App.createSystem = function(){
 	];
 
 	// load planet systems dynamically
+	/*
 	setTimeout(function(){
 		$.ajax({
 		  dataType: "json",
@@ -362,6 +363,7 @@ App.createSystem = function(){
 		  }
 		});
 	}, 1000);
+	*/
 
 };
 

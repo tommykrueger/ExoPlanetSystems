@@ -7,8 +7,8 @@
 
 	"Stars": "Sterne",
 	"Planets": "Planeten",
-	"Default": "Standard",
-	"Top": "Oben",
+	"Default View (3D)": "Standard-Perspektive (3D)",
+	"From Top (2D)": "Sicht von Oben (2D)",
 
 	"Exoplanet Visualization": "Exoplaneten Visualisierung",
 
@@ -22,6 +22,7 @@
 	"System Plane": "Koordinatennetz",
 	"Inclination": "Inklination",
 	"Minor Objects": "Kleine Objekte",
+	"Distances": "Distanzen",
 
 	"Distance to Sun": "Entfernung Sonne",
 	"AU": "AE",
@@ -30,5 +31,11 @@
 	"Solarsystem": "Sonnensystem",
 
 	"Mercury": "Merkur",
-	"Earth": "Erde"
+	"Earth": "Erde",
+
+	"Current distribution of confirmed exoplanets": "Aktuelle Verteilung nachgewiesener Exoplaneten",
+
+	"Star planets": "Anzahl Planeten",
+	"Star distance": "Entfernung des Sterns (in LJ)"
+
 }]

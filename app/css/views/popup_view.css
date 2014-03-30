@@ -74,13 +74,24 @@
 	border-top: 1px solid #404040;
 	background: #202020;
 	}
-.dialog-content p {
+.dialog-content p,
+.dialog-content h2,
+.dialog-content table {
 	padding: 0 6px;
 	}
 .dialog-content a {
 	color: steelblue;
 	text-decoration: none;
 	}
+
+.dialog-content table tr:nth-child(2n+1) {
+	background: #111;
+	}
+.dialog-content table tr td {
+	padding: 4px;
+	}
+
+
 
 .dialog-controls {
 	width: 100%;
