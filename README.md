@@ -1,6 +1,6 @@
 # Exoplanets App
 
-A web application to visualize exoplanet data. The data is based on PHL's
+A web application that visualizes data of extrasolar planets. The data is based on PHL's
 [Habitable Exoplanets Catalog](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database) which basically provides almost every exoplanet data available combined with additional planet related modelled information.
 
 ### Getting Started
